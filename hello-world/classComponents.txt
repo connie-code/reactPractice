@@ -1,0 +1,27 @@
+Class Component
+
+- They are ES6 classes.
+- Similar to a functional component, a class component can also optionally receive props
+  as input and return HTML.
+- A class component can also maintain a private internal state;
+  > meaning: it can maintain some info which is private to that component and use info
+            to describe the UI.
+
+
+Functional vs. Class components
+-> Functional
+  - simple functions receiving props & returning a declaration
+  - use functional components as much as possible
+  - Advantages:
+    - Absence of 'this' keyword [is in class component]
+    - solution w/o using state
+    - mainly responsible for the UI
+    - tend to be w/o any complicated logic
+  - Functional components are also called: stateless/ dumb/ presentational components
+
+-> Class
+  - more feature rich
+  - can maintain their own private data known as: state
+  - can contain complicated UI logic
+  - provides life-cycle hooks
+  - Class components are also called: stateful/ smart/ container components
